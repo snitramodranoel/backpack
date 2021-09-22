@@ -1,0 +1,61 @@
+Metadata-Version: 1.1
+Name: backpack
+Version: 1.0
+Summary: AImport Jupyter notebooks as Python modules.
+Home-page: https://github.com/leonardo-martins/backpack
+Author: Leonardo Silveira de Albuquerque Martins
+Author-email: leonardo.martins@br.ibm.com
+License: BSD
+Description: ========
+        Overview
+        ========
+        
+        Import Jupyter notebooks as Python modules. Based on the Jupyter documentation example_.
+        
+        .. _example: http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html
+        
+        Installation
+        ============
+        
+        ::
+        
+            git clone git@github.ibm.com:leonardo-martins/backpack.git
+            cd backpack
+            python setup.py install
+        
+        Documentation
+        =============
+        
+        Suppose you have a Jupyter notebook `My Notebook.ipynb` sitting in your working directory that you want to import.
+        From your current notebook:
+        
+        ::
+        
+            import backpack
+            import My_Notebook as mynb
+        
+        
+        Changelog
+        =========
+        
+        1.0 (2016-08-02)
+        -----------------------------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
