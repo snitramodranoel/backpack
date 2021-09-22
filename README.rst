@@ -11,7 +11,7 @@ Installation
 
 ::
 
-    pip install -e git@github.com:snitramodranoel/backpack@HEAD#egg=backpack
+    pip install -e git+https://github.com/snitramodranoel/backpack@main#egg=backpack
 
 Documentation
 =============
